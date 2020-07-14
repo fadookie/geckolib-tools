@@ -1,4 +1,8 @@
 const fs = require('fs');
+/**
+ * Makes a .bbmodel with a giant animation clip with every easing curve based on the template we just loaded
+ * This was needed for testing that no bugs were introduced during easing curve refactor effort
+ */
 const _ = require('lodash');
 const uuid = require('uuid');
 
@@ -15,27 +19,12 @@ const EASING_OPTIONS = [
    "Bounce"
 ];
 
-// const origModel = JSON.parse(fs.readFileSync('tweentest1.bbmodel'));
-const FILE_BASENAME = 'tweentest-oldFormat';
+const FILE_BASENAME = 'tests/tweentest-oldFormat';
 const origModel = JSON.parse(fs.readFileSync(`${FILE_BASENAME}.bbmodel`));
 
 const newModel = _.cloneDeep(origModel);
 
-// Option 1: one clip per curve type
-// newModel.animations = EASING_OPTIONS.map(easingName => {
-//   const animation = _.cloneDeep(origModel.animations[0]);
-//   animation.uuid = uuid.v4();
-//   animation.name = `animation.${easingName}.test`;
-//   animation.animators.bone.forEach(kf => {
-//     kf.uuid = uuid.v4();
-//     if (kf.easing !== undefined) {
-//       kf.easing = kf.easing.replace('Sine', easingName);
-//     }
-//   });
-//   return animation;
-// });
-
-// Option 2: one giant clip
+// Make a giant animation clip with every easing curve based on the template we just loaded
 const animLength = origModel.animations[0].length;
 newModel.animations[0].animators.bone = EASING_OPTIONS.flatMap((easingName, easingIndex) => {
   return origModel.animations[0].animators.bone.map(templateKf => {

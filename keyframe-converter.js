@@ -1,7 +1,11 @@
+/**
+ * Converts a .bbmodel file from the old keyframe format (tween associated with left-hand keyframe)
+ * to new format (tween associated with right-hand keyframe) 
+ */
 const fs = require('fs');
 const _ = require('lodash');
 
-const FILE_BASENAME = 'tweentest-oldFormat';
+const FILE_BASENAME = 'tests/tweentest-oldFormat';
 const origModel = JSON.parse(fs.readFileSync(`${FILE_BASENAME}.bbmodel`));
 
 const newModel = _.cloneDeep(origModel)
