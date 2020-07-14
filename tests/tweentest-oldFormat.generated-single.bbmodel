@@ -1,0 +1,777 @@
+{
+  "meta": {
+    "format_version": "3.2",
+    "model_format": "animated_entity_model",
+    "box_uv": true
+  },
+  "name": "tweentest-oldFormat",
+  "geo_name": "tweentest1",
+  "resolution": {
+    "width": 16,
+    "height": 16
+  },
+  "elements": [
+    {
+      "name": "cube",
+      "from": [
+        -8,
+        0,
+        7
+      ],
+      "to": [
+        -7,
+        1,
+        8
+      ],
+      "autouv": 1,
+      "color": 5,
+      "locked": false,
+      "origin": [
+        -16,
+        0,
+        14
+      ],
+      "faces": {
+        "north": {
+          "uv": [
+            1,
+            1,
+            2,
+            2
+          ],
+          "texture": 0
+        },
+        "east": {
+          "uv": [
+            0,
+            1,
+            1,
+            2
+          ],
+          "texture": 0
+        },
+        "south": {
+          "uv": [
+            3,
+            1,
+            4,
+            2
+          ],
+          "texture": 0
+        },
+        "west": {
+          "uv": [
+            2,
+            1,
+            3,
+            2
+          ],
+          "texture": 0
+        },
+        "up": {
+          "uv": [
+            2,
+            1,
+            1,
+            0
+          ],
+          "texture": 0
+        },
+        "down": {
+          "uv": [
+            3,
+            0,
+            2,
+            1
+          ],
+          "texture": 0
+        }
+      },
+      "uuid": "19ca3b2d-704b-f291-d43f-821c774dee7c"
+    }
+  ],
+  "outliner": [
+    {
+      "name": "bone",
+      "uuid": "f2dc9ef8-9297-377e-0ddb-cdeffdb9345c",
+      "export": true,
+      "isOpen": true,
+      "locked": false,
+      "visibility": true,
+      "autouv": 0,
+      "origin": [
+        -8,
+        0,
+        7
+      ],
+      "children": [
+        "19ca3b2d-704b-f291-d43f-821c774dee7c"
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "path": "/Users/eliot/Dev/eliot/minecraft/fabric/3pt/geckolib/tools/tweentest-oldFormat.png",
+      "name": "tweentest-oldFormat.png",
+      "folder": "tools",
+      "namespace": "",
+      "id": "0",
+      "particle": false,
+      "mode": "bitmap",
+      "saved": true,
+      "uuid": "1cac54de-94bd-4b07-60f0-09c29691afdc",
+      "source": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAHklEQVQ4T2P8z8Dwn4ECwDhqAMNoGDCMhgHDsAgDAKXUH/HLXNS/AAAAAElFTkSuQmCC"
+    }
+  ],
+  "animations": [
+    {
+      "uuid": "7a45163a-54de-1849-58eb-4f358293ec44",
+      "name": "animation.easingtest.new",
+      "loop": false,
+      "override": false,
+      "anim_time_update": "",
+      "length": 8.16,
+      "selected": true,
+      "animators": {
+        "bone": [
+          {
+            "uuid": "03a2c2a2-9be0-490e-9896-5ad4ede1f2ec",
+            "channel": "position",
+            "time": 0,
+            "x": "0",
+            "y": "0",
+            "z": "0",
+            "easing": "easeInSine"
+          },
+          {
+            "uuid": "77986fe1-8059-4388-95a2-68d200a52235",
+            "channel": "position",
+            "time": 2,
+            "x": "0",
+            "y": "0",
+            "z": "-15",
+            "easing": "linear"
+          },
+          {
+            "uuid": "774d95d7-1baa-4901-a880-95021c52a46b",
+            "channel": "position",
+            "time": 2.1,
+            "x": "0",
+            "y": "0",
+            "z": "0",
+            "easing": "easeOutSine"
+          },
+          {
+            "uuid": "80032f06-b903-4357-8c5f-e035396d4a98",
+            "channel": "position",
+            "time": 4.08,
+            "x": "0",
+            "y": "0",
+            "z": "-15",
+            "easing": "linear"
+          },
+          {
+            "uuid": "727ec9f2-ab79-4025-b11a-44452c7ad752",
+            "channel": "position",
+            "time": 4.16,
+            "x": "0",
+            "y": "0",
+            "z": "0",
+            "easing": "easeInOutSine"
+          },
+          {
+            "uuid": "2eb0d246-b1f6-4d8d-81c0-459b73c5a0d3",
+            "channel": "position",
+            "time": 6.16,
+            "x": "0",
+            "y": "0",
+            "z": "-15",
+            "easing": "linear"
+          },
+          {
+            "uuid": "00e826b7-a05a-4052-b8e5-df0396d0f41d",
+            "channel": "position",
+            "time": 6.24,
+            "x": "0",
+            "y": "0",
+            "z": "0",
+            "easing": "linear"
+          },
+          {
+            "uuid": "18d2a11f-c3e5-4a80-959d-a2bb434d7ab0",
+            "channel": "position",
+            "time": 8.16,
+            "x": "0",
+            "y": "0",
+            "z": "0",
+            "easing": "easeInQuad"
+          },
+          {
+            "uuid": "854d18af-7e73-40d4-b30e-b3035b57cbc0",
+            "channel": "position",
+            "time": 10.16,
+            "x": "0",
+            "y": "0",
+            "z": "-15",
+            "easing": "linear"
+          },
+          {
+            "uuid": "46a1846f-3e34-4ed7-9a10-2ef3e776052c",
+            "channel": "position",
+            "time": 10.26,
+            "x": "0",
+            "y": "0",
+            "z": "0",
+            "easing": "easeOutQuad"
+          },
+          {
+            "uuid": "6c6042c9-a6d5-4baf-9fe4-b7b02d673a1a",
+            "channel": "position",
+            "time": 12.24,
+            "x": "0",
+            "y": "0",
+            "z": "-15",
+            "easing": "linear"
+          },
+          {
+            "uuid": "29ce4b05-d775-4c21-ad12-dc7f38376cab",
+            "channel": "position",
+            "time": 12.32,
+            "x": "0",
+            "y": "0",
+            "z": "0",
+            "easing": "easeInOutQuad"
+          },
+          {
+            "uuid": "92b30288-bab7-460c-b008-8b1a7ef110d8",
+            "channel": "position",
+            "time": 14.32,
+            "x": "0",
+            "y": "0",
+            "z": "-15",
+            "easing": "linear"
+          },
+          {
+            "uuid": "c244e327-86e5-465b-b53e-1a5158cff3f0",
+            "channel": "position",
+            "time": 14.4,
+            "x": "0",
+            "y": "0",
+            "z": "0",
+            "easing": "linear"
+          },
+          {
+            "uuid": "9d6f6ae5-3e41-4917-9c4a-7e6a1a694b3f",
+            "channel": "position",
+            "time": 16.32,
+            "x": "0",
+            "y": "0",
+            "z": "0",
+            "easing": "easeInCubic"
+          },
+          {
+            "uuid": "82391384-6e4e-451b-9878-7b08be04a7c0",
+            "channel": "position",
+            "time": 18.32,
+            "x": "0",
+            "y": "0",
+            "z": "-15",
+            "easing": "linear"
+          },
+          {
+            "uuid": "f27e8173-578a-46d4-99b0-f0f303aa2188",
+            "channel": "position",
+            "time": 18.42,
+            "x": "0",
+            "y": "0",
+            "z": "0",
+            "easing": "easeOutCubic"
+          },
+          {
+            "uuid": "87330021-0859-420c-9a4f-c26b01ea86bd",
+            "channel": "position",
+            "time": 20.4,
+            "x": "0",
+            "y": "0",
+            "z": "-15",
+            "easing": "linear"
+          },
+          {
+            "uuid": "7407b93c-ae43-4335-80cb-d3e66e165f4c",
+            "channel": "position",
+            "time": 20.48,
+            "x": "0",
+            "y": "0",
+            "z": "0",
+            "easing": "easeInOutCubic"
+          },
+          {
+            "uuid": "7512a648-561c-4d48-b2bd-90715fe09638",
+            "channel": "position",
+            "time": 22.48,
+            "x": "0",
+            "y": "0",
+            "z": "-15",
+            "easing": "linear"
+          },
+          {
+            "uuid": "fd8a8727-15cd-4c5e-8457-ee7dccd38656",
+            "channel": "position",
+            "time": 22.560000000000002,
+            "x": "0",
+            "y": "0",
+            "z": "0",
+            "easing": "linear"
+          },
+          {
+            "uuid": "2e37914d-f92f-47b5-954c-8c65d960d4a1",
+            "channel": "position",
+            "time": 24.48,
+            "x": "0",
+            "y": "0",
+            "z": "0",
+            "easing": "easeInQuart"
+          },
+          {
+            "uuid": "d3cd2c1c-8e16-470c-a639-9d80943ddf4a",
+            "channel": "position",
+            "time": 26.48,
+            "x": "0",
+            "y": "0",
+            "z": "-15",
+            "easing": "linear"
+          },
+          {
+            "uuid": "29d10f1c-ca7f-40d8-b1f9-00129b42f5d6",
+            "channel": "position",
+            "time": 26.580000000000002,
+            "x": "0",
+            "y": "0",
+            "z": "0",
+            "easing": "easeOutQuart"
+          },
+          {
+            "uuid": "c396de76-bdea-417e-ba5f-c33d02ae74e9",
+            "channel": "position",
+            "time": 28.560000000000002,
+            "x": "0",
+            "y": "0",
+            "z": "-15",
+            "easing": "linear"
+          },
+          {
+            "uuid": "9d37e09a-b992-474b-a25d-f9c516642240",
+            "channel": "position",
+            "time": 28.64,
+            "x": "0",
+            "y": "0",
+            "z": "0",
+            "easing": "easeInOutQuart"
+          },
+          {
+            "uuid": "b3ba48da-6a33-4eaa-adea-3a75372003f3",
+            "channel": "position",
+            "time": 30.64,
+            "x": "0",
+            "y": "0",
+            "z": "-15",
+            "easing": "linear"
+          },
+          {
+            "uuid": "b7a68be1-cb41-429a-a11e-6460cba83cc7",
+            "channel": "position",
+            "time": 30.72,
+            "x": "0",
+            "y": "0",
+            "z": "0",
+            "easing": "linear"
+          },
+          {
+            "uuid": "606aff03-d915-49a3-b7cf-e242a1fef3e7",
+            "channel": "position",
+            "time": 32.64,
+            "x": "0",
+            "y": "0",
+            "z": "0",
+            "easing": "easeInQuint"
+          },
+          {
+            "uuid": "6346165f-afe0-47ca-abe3-6cef1e5c0d8e",
+            "channel": "position",
+            "time": 34.64,
+            "x": "0",
+            "y": "0",
+            "z": "-15",
+            "easing": "linear"
+          },
+          {
+            "uuid": "45c3b73c-0ada-44c0-8946-78eef5a09ff5",
+            "channel": "position",
+            "time": 34.74,
+            "x": "0",
+            "y": "0",
+            "z": "0",
+            "easing": "easeOutQuint"
+          },
+          {
+            "uuid": "0c7f2c7e-f537-46ad-8bfc-ba80807a40ef",
+            "channel": "position",
+            "time": 36.72,
+            "x": "0",
+            "y": "0",
+            "z": "-15",
+            "easing": "linear"
+          },
+          {
+            "uuid": "18fd92bc-40c6-4930-b52c-746fb8db5794",
+            "channel": "position",
+            "time": 36.8,
+            "x": "0",
+            "y": "0",
+            "z": "0",
+            "easing": "easeInOutQuint"
+          },
+          {
+            "uuid": "4a6d02c4-400c-4770-9f45-f5fb7b1cba5e",
+            "channel": "position",
+            "time": 38.8,
+            "x": "0",
+            "y": "0",
+            "z": "-15",
+            "easing": "linear"
+          },
+          {
+            "uuid": "92a7aa95-8475-471e-93fc-5e5c5ebc3688",
+            "channel": "position",
+            "time": 38.88,
+            "x": "0",
+            "y": "0",
+            "z": "0",
+            "easing": "linear"
+          },
+          {
+            "uuid": "f3ecc0fc-50f8-4c69-b4eb-1912bf7f6010",
+            "channel": "position",
+            "time": 40.8,
+            "x": "0",
+            "y": "0",
+            "z": "0",
+            "easing": "easeInExpo"
+          },
+          {
+            "uuid": "796ee079-718d-4612-9f4e-8cae54cb7162",
+            "channel": "position",
+            "time": 42.8,
+            "x": "0",
+            "y": "0",
+            "z": "-15",
+            "easing": "linear"
+          },
+          {
+            "uuid": "c9cbccfd-a7b0-4f2a-98ef-e6cc8f70fad8",
+            "channel": "position",
+            "time": 42.9,
+            "x": "0",
+            "y": "0",
+            "z": "0",
+            "easing": "easeOutExpo"
+          },
+          {
+            "uuid": "17cb59ca-f708-4a36-af8c-04cb794bba03",
+            "channel": "position",
+            "time": 44.879999999999995,
+            "x": "0",
+            "y": "0",
+            "z": "-15",
+            "easing": "linear"
+          },
+          {
+            "uuid": "564503e9-ab63-4c86-874c-efc100eb6226",
+            "channel": "position",
+            "time": 44.959999999999994,
+            "x": "0",
+            "y": "0",
+            "z": "0",
+            "easing": "easeInOutExpo"
+          },
+          {
+            "uuid": "13eae551-8c66-461a-b0c8-73d244ed0bd8",
+            "channel": "position",
+            "time": 46.959999999999994,
+            "x": "0",
+            "y": "0",
+            "z": "-15",
+            "easing": "linear"
+          },
+          {
+            "uuid": "d6e37c36-dd34-4425-8deb-d07c332f3c0a",
+            "channel": "position",
+            "time": 47.04,
+            "x": "0",
+            "y": "0",
+            "z": "0",
+            "easing": "linear"
+          },
+          {
+            "uuid": "2929ed9f-6158-44ba-8de7-62205f358ec6",
+            "channel": "position",
+            "time": 48.96,
+            "x": "0",
+            "y": "0",
+            "z": "0",
+            "easing": "easeInCirc"
+          },
+          {
+            "uuid": "5c79d3ad-1aa4-49ed-bbbe-4ce5531000dc",
+            "channel": "position",
+            "time": 50.96,
+            "x": "0",
+            "y": "0",
+            "z": "-15",
+            "easing": "linear"
+          },
+          {
+            "uuid": "90951fff-7961-495c-b55b-c8a4dcdd9598",
+            "channel": "position",
+            "time": 51.06,
+            "x": "0",
+            "y": "0",
+            "z": "0",
+            "easing": "easeOutCirc"
+          },
+          {
+            "uuid": "ab339943-ada2-4c6f-8b20-1c3ebca26b96",
+            "channel": "position",
+            "time": 53.04,
+            "x": "0",
+            "y": "0",
+            "z": "-15",
+            "easing": "linear"
+          },
+          {
+            "uuid": "52d76fee-2b6c-4541-8344-5f57dcedac16",
+            "channel": "position",
+            "time": 53.120000000000005,
+            "x": "0",
+            "y": "0",
+            "z": "0",
+            "easing": "easeInOutCirc"
+          },
+          {
+            "uuid": "12abec65-c811-4708-aaba-ea390d3a3e79",
+            "channel": "position",
+            "time": 55.120000000000005,
+            "x": "0",
+            "y": "0",
+            "z": "-15",
+            "easing": "linear"
+          },
+          {
+            "uuid": "3a96e123-fa30-4f79-84e8-6dceba35be3b",
+            "channel": "position",
+            "time": 55.2,
+            "x": "0",
+            "y": "0",
+            "z": "0",
+            "easing": "linear"
+          },
+          {
+            "uuid": "ec6d6d1c-4fae-4cf2-b666-c0268949b097",
+            "channel": "position",
+            "time": 57.120000000000005,
+            "x": "0",
+            "y": "0",
+            "z": "0",
+            "easing": "easeInBack"
+          },
+          {
+            "uuid": "edaae7e7-d743-433c-8845-384f5f1c6e5a",
+            "channel": "position",
+            "time": 59.120000000000005,
+            "x": "0",
+            "y": "0",
+            "z": "-15",
+            "easing": "linear"
+          },
+          {
+            "uuid": "4690f728-31e6-40d9-8764-c3b77e2767f1",
+            "channel": "position",
+            "time": 59.220000000000006,
+            "x": "0",
+            "y": "0",
+            "z": "0",
+            "easing": "easeOutBack"
+          },
+          {
+            "uuid": "18b6843c-929d-4749-bf7f-c2dad814792d",
+            "channel": "position",
+            "time": 61.2,
+            "x": "0",
+            "y": "0",
+            "z": "-15",
+            "easing": "linear"
+          },
+          {
+            "uuid": "12147e54-7d92-49ac-8895-1bfcec1f34fe",
+            "channel": "position",
+            "time": 61.28,
+            "x": "0",
+            "y": "0",
+            "z": "0",
+            "easing": "easeInOutBack"
+          },
+          {
+            "uuid": "7f6e0c51-bb2b-479d-97a9-3cbb63b0617d",
+            "channel": "position",
+            "time": 63.28,
+            "x": "0",
+            "y": "0",
+            "z": "-15",
+            "easing": "linear"
+          },
+          {
+            "uuid": "431ac997-b542-48bf-b046-40daed8c1d4d",
+            "channel": "position",
+            "time": 63.36000000000001,
+            "x": "0",
+            "y": "0",
+            "z": "0",
+            "easing": "linear"
+          },
+          {
+            "uuid": "4e13bdfc-3218-4c2f-a3be-e12bc9fc471c",
+            "channel": "position",
+            "time": 65.28,
+            "x": "0",
+            "y": "0",
+            "z": "0",
+            "easing": "easeInElastic"
+          },
+          {
+            "uuid": "c04d7b79-6407-459e-b5cd-6c15ebff8081",
+            "channel": "position",
+            "time": 67.28,
+            "x": "0",
+            "y": "0",
+            "z": "-15",
+            "easing": "linear"
+          },
+          {
+            "uuid": "ba814155-8eba-4bfb-85d7-e932f3d966e5",
+            "channel": "position",
+            "time": 67.38,
+            "x": "0",
+            "y": "0",
+            "z": "0",
+            "easing": "easeOutElastic"
+          },
+          {
+            "uuid": "28ba4d71-1345-40e9-8b11-bfed35e508b8",
+            "channel": "position",
+            "time": 69.36,
+            "x": "0",
+            "y": "0",
+            "z": "-15",
+            "easing": "linear"
+          },
+          {
+            "uuid": "6d51edd1-6cca-4174-ad5e-2bf3062769c5",
+            "channel": "position",
+            "time": 69.44,
+            "x": "0",
+            "y": "0",
+            "z": "0",
+            "easing": "easeInOutElastic"
+          },
+          {
+            "uuid": "66c24d42-769a-451b-bcb5-dd3e8d9d52be",
+            "channel": "position",
+            "time": 71.44,
+            "x": "0",
+            "y": "0",
+            "z": "-15",
+            "easing": "linear"
+          },
+          {
+            "uuid": "a6da5127-6260-466a-a57a-c340831e514b",
+            "channel": "position",
+            "time": 71.52,
+            "x": "0",
+            "y": "0",
+            "z": "0",
+            "easing": "linear"
+          },
+          {
+            "uuid": "0b5146fe-1f4c-4dc9-b0f1-bde555d30c1b",
+            "channel": "position",
+            "time": 73.44,
+            "x": "0",
+            "y": "0",
+            "z": "0",
+            "easing": "easeInBounce"
+          },
+          {
+            "uuid": "d6d0f9cc-cf25-4af9-80d0-608d634127cd",
+            "channel": "position",
+            "time": 75.44,
+            "x": "0",
+            "y": "0",
+            "z": "-15",
+            "easing": "linear"
+          },
+          {
+            "uuid": "30ece5da-2170-422d-9a66-9df9c85c1453",
+            "channel": "position",
+            "time": 75.53999999999999,
+            "x": "0",
+            "y": "0",
+            "z": "0",
+            "easing": "easeOutBounce"
+          },
+          {
+            "uuid": "ea5b5ffc-02ec-44c3-81cc-e3f3a15384d8",
+            "channel": "position",
+            "time": 77.52,
+            "x": "0",
+            "y": "0",
+            "z": "-15",
+            "easing": "linear"
+          },
+          {
+            "uuid": "fb12fef0-a0d5-46a1-9b2d-8d1624e539b2",
+            "channel": "position",
+            "time": 77.6,
+            "x": "0",
+            "y": "0",
+            "z": "0",
+            "easing": "easeInOutBounce"
+          },
+          {
+            "uuid": "17d99b79-c240-4b10-844f-4f6b1ec1cd90",
+            "channel": "position",
+            "time": 79.6,
+            "x": "0",
+            "y": "0",
+            "z": "-15",
+            "easing": "linear"
+          },
+          {
+            "uuid": "a1019a1c-0a33-4a1f-9d5e-383e9f1ad5e1",
+            "channel": "position",
+            "time": 79.67999999999999,
+            "x": "0",
+            "y": "0",
+            "z": "0",
+            "easing": "linear"
+          }
+        ]
+      }
+    }
+  ],
+  "geckoSettings": {
+    "entityType": "Entity",
+    "javaPackage": "com.example.mod",
+    "animFileNamespace": "MODID",
+    "animFilePath": "animations/ANIMATIONFILE.json"
+  }
+}

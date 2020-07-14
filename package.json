@@ -1,0 +1,11 @@
+{
+  "name": "geckolib-tools",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "Eliot Lash",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "4.17.19",
+    "uuid": "8.2.0"
+  }
+}
