@@ -1,0 +1,2 @@
+# Geckolib Tools
+This repo contains small helper scripts for [Geckolib](https://github.com/bernie-g/geckolib) and the [Geckolib Animation Tools](https://github.com/fadookie/blockbench-plugins/blob/master/plugins/animation_utils.js) plugin for [Blockbench](https://blockbench.net/).
